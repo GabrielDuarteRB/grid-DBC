@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-style: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+header div nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+header div nav ul li {
+    display: flex;
+    font-style: none;
+    text-decoration: none; 
+}
+
+.twitter {
+    margin-top: 40px
+}
+
+.twitter > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.carros h1, .carros-empilhados h2 {
+    background-color: #2C2C2C;
+    color: white;
+    font-size: 18px;
+    max-width: 350px;
+    margin: -55px 0;
+    position: relative;
+    padding: 15px 30px;
+
+}
+
+.carros-empilhados {
+    display: grid; 
+    gap: 75px;
+}
